@@ -17,9 +17,13 @@ This project is based on the Neural Machine Translation with Attention model, wh
 ![](images/2.png)
 
 To receive access token write Telegram BotFather http://t.me/BotFather and send command /newbot to create a new bot. Choose a name for your bot. Choose a username for your bot. It must end in 'bot'. BotFather sends you an access token and you put it into the program.
+
 Bot has /start and /help commands, answers to text messages.
+
 dataset.txt includes Papaya Data Set, the scenario conversations designed for training robots, the Cornell movie dialogs and cleaned Reddit data (about 158K pairs). Questions and answers are separated with "\t".
+
 To train model run train.py. When the loss stops diminishing, then we reduce the learning_rate by 2 times.
+
 To start chatbot run chatbot.py. Before this, put the access token into the file.
 
 ![](images/3.png)
